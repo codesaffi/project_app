@@ -35,6 +35,7 @@ import FriendProfile from "./components/FriendProfile.jsx";
 import UserProfilePage from "./components/UserProfilePage.jsx";
 import Signup from "./components/Signup.jsx";
 import Home from './components/Home.jsx';
+import Friends from "./components/Friends.jsx";
 
 const router = createBrowserRouter([
   {
