@@ -28,26 +28,26 @@ function App() {
     <Router>
       <div className="home1">
         <Routes>
-          <Route path="/" element={<Login />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/create-profile" element={<CreateProfile />} />
-          <Route path="/modify-profile" element={<ModifyProfile />} />
-          <Route path="/create-post" element={<CreatePost />} />
-          <Route path="/friends" element={<Friends />} />
-          <Route path="/addfriends" element={<AddFriendPage />} />
-          <Route path="/profile/:id" element={<UserProfilePage />} />
-          <Route path="/friend-request" element={<FriendRequestsPage />} />
-          <Route path="/my-friends" element={<MyFriendsPage />} />
-          <Route path="/friend-profile/:id" element={<FriendProfile />} />
-          <Route path="/birthdays" element={<Birthdays />} />
-          <Route path="/messages" element={<MessagesPage />} />
-          <Route path="/chat/:friendId" element={<ChatPage />} />
-          <Route path="/chat-friend-profile/:id" element={<ChatFriendProfile />} />
-          <Route path="/notifications" element={<Notifications />} />
-          <Route path="/settings" element={<Settings />} />
+          <Route path="/project_app/" element={<Login />} />
+          <Route path="/project_app/login" element={<Login />} />
+          <Route path="/project_app/signup" element={<Signup />} />
+          <Route path="/project_app/home" element={<Home />} />
+          <Route path="/project_app/profile" element={<Profile />} />
+          <Route path="/project_app/create-profile" element={<CreateProfile />} />
+          <Route path="/project_app/modify-profile" element={<ModifyProfile />} />
+          <Route path="/project_app/create-post" element={<CreatePost />} />
+          <Route path="/project_app/friends" element={<Friends />} />
+          <Route path="/project_app/addfriends" element={<AddFriendPage />} />
+          <Route path="/project_app/profile/:id" element={<UserProfilePage />} />
+          <Route path="/project_app/friend-request" element={<FriendRequestsPage />} />
+          <Route path="/project_app/my-friends" element={<MyFriendsPage />} />
+          <Route path="/project_app/friend-profile/:id" element={<FriendProfile />} />
+          <Route path="/project_app/birthdays" element={<Birthdays />} />
+          <Route path="/project_app/messages" element={<MessagesPage />} />
+          <Route path="/project_app/chat/:friendId" element={<ChatPage />} />
+          <Route path="/project_app/chat-friend-profile/:id" element={<ChatFriendProfile />} />
+          <Route path="/project_app/notifications" element={<Notifications />} />
+          <Route path="/project_app/settings" element={<Settings />} />
         </Routes>
       </div>
     </Router>
